@@ -1,0 +1,25 @@
+Customizing DS-addons assets
+--------------------------------------------------------------------------------
+If you're one of those people who like to use custom sounds and images in NfmM,
+but as result every time there's an update you end up with random bugs and
+crashes, I have some good news for you: now you can place your custom files here
+so they are used instead of the stock ones without interfering with updates.
+
+For this to work, you have to make a replica of the folders inside the 'app'
+directory, at least the ones with the content you will customize. So in order to
+change some images, create a 'data' folder in here, then another folder called
+'images' inside it, and then put the modified image in there (for instance,
+'logomadbg.jpg' if you want to use a different background for the main menu).
+
+At the moment you can use custom assets for the following items:
+
+- data/
+  - All files in 'images.zip'                             (inside 'data/images')
+  - All files in 'sounds.zip'                             (inside 'data/sounds')
+  - All images in the folder itself, except the window icons     (inside 'data')
+- music/
+  - All soundtracks for the game stages and other screens       (inside 'music')
+  
+Everything else cannot be customized yet, perhaps later I will be able to add
+support for more assets to be customizable. If that happens, the instructions in
+this file will be updated accordingly.
